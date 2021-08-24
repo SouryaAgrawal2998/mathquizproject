@@ -6,13 +6,23 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-<link rel="stylesheet" type="text/css" href="quiz_game.css">
+<link rel="stylesheet" type="text/css" href="style.css">
 <body>
     <div class="container">
-        <center>
     <h4 id="player1_name"></h4><span id="player1_name_score"></span>
     <br></br>
     <h4 id="player2_name"></h4><span id="player2_name_score"></span>
 </div>
+<center>
+<h1>MATH QUIZ GAME</h1>
+<div id="output">
+</div>
+<br>
+<br>
+<label><b>Number 1:</b></label><span><input id="input_q1" type="text" class="form-control"></span>
+<label><b>Number 2:</b></label><span><input id="input_q2" type="text" class="form-control"></span>
+<br>
+<button id="send_button" onclick="send()">Send</button>
 </center>
+<script src="quiz-game-page.js"></script>
 </body>
